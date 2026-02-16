@@ -1,0 +1,68 @@
+# --- CARTELLE TEMPORANEE DI UNITY ---
+# Queste cartelle vengono create da Unity sul tuo PC. 
+# Non servono su Azure/GitHub perché Unity le ricrea da solo.
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# --- FILE DI SOLUZIONE (VS CODE / VISUAL STUDIO) ---
+# Questi file servono solo al tuo editor locale.
+# Unity li rigenera ogni volta che clicchi "Regenerate project files".
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.opendb
+*.db
+
+# --- RISULTATI DI COMPILAZIONE E ASSET STORE ---
+/Assets/AssetStoreTools*
+/Assets/Plugins/Editor/JetBrains*
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# --- IMPOSTAZIONI PERSONALI UNITY (2020+) ---
+# Contiene preferenze locali dell'editor
+[Uu]serSettings/
+
+# --- CRASH E DEBUG ---
+*.stackdump
+*.log
+
+# --- PLASTIC SCM (se usi il VCS integrato di Unity) ---
+.plastic/
+
+# --- RIDER (se qualcuno del team lo usa) ---
+.idea/
+*.iml
+
+# --- BUILD MOBILE (se sviluppi per Android/iOS) ---
+[Aa]ndroid/
+[Ii]OS/
+*.apk
+*.aab
+*.ipa
+
+# --- ALTRI FILE TEMPORANEI ---
+*.tmp
+*.orig
