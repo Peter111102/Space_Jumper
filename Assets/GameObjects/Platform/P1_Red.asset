@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: P1_Red
   m_EditorClassIdentifier: 
   jumpForce: 3
-  mainSprite: {fileID: 0}
-  breakLeft: {fileID: 0}
-  breakRight: {fileID: 0}
+  mainSprite: {fileID: 2043650799, guid: b39af6cc5e39fae479e014250b88edc3, type: 3}
+  breakLeft: {fileID: 1332194531, guid: b39af6cc5e39fae479e014250b88edc3, type: 3}
+  breakRight: {fileID: 1029429082, guid: b39af6cc5e39fae479e014250b88edc3, type: 3}

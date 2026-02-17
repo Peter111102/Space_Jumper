@@ -4,7 +4,7 @@ public class PlatformController : MonoBehaviour
 {
     private PlatformData data;
     private Rigidbody2D rb;
-    private float timer = 1f;
+    private float timer = 4f;
 
     public void Setup(PlatformData newData)
     {
@@ -16,7 +16,9 @@ public class PlatformController : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        if (timer <= 0) rb.bodyType = RigidbodyType2D.Dynamic;
+        if (timer <= 0)   rb.bodyType = RigidbodyType2D.Dynamic; 
+
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

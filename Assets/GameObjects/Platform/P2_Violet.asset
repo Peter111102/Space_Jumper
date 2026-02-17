@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2928038d7d701e40a74b9f0f524b095, type: 3}
-  m_Name: P4_Yellow
+  m_Name: P2_Violet
   m_EditorClassIdentifier: 
-  jumpForce: 6
-  mainSprite: {fileID: 0}
-  breakLeft: {fileID: 0}
-  breakRight: {fileID: 0}
+  jumpForce: 4
+  mainSprite: {fileID: 17771313, guid: b6efe5363455d68458cea93c8802e816, type: 3}
+  breakLeft: {fileID: -989339978, guid: b6efe5363455d68458cea93c8802e816, type: 3}
+  breakRight: {fileID: -1944503828, guid: b6efe5363455d68458cea93c8802e816, type: 3}
