@@ -48,8 +48,7 @@ public class PlatformUIManager : MonoBehaviour
         foreach (var slot in slots)
         {
             if (slot.currentCD > 0)
-            {
-                slot.cooldownImage.gameObject.SetActive(true);
+            { 
                 slot.currentCD -= Time.deltaTime;
                 slot.cooldownImage.fillAmount = slot.currentCD / slot.cooldown;
             }
